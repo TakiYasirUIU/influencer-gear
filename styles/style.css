@@ -90,24 +90,30 @@ main{
  /********************
     Section-4 area  
  ********************/
+
+
  .section-4-article-1-container{
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 98.4px;
+
  }
 
  .section-4-article-2-container{
      display: grid;
+     
      grid-template-columns: repeat(3, 1fr);
-     grid-gap: 8px;
+     grid-gap: 34px;
+     background-color: rgb(241, 242, 242);
+     box-shadow:rgb(241, 242, 242) ;
+     
  }
  
  
 
  .section-4-product{
      background-color: rgb(255, 255,255);
-     margin-bottom: 16px;
-
-     
+     border-radius: 5px;
      
 }
  
