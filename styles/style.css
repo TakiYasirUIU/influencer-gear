@@ -28,6 +28,7 @@ main{
 .setion-2-container{
     display: flex;
     margin-bottom: 180px;
+    
 }
 .section-2-influence{
     margin-right: 102px;
@@ -48,11 +49,19 @@ main{
     color: #3A3A3A;
 }
 
-.section-2-img{
+.section-2-img, .inner_img{
     width: 440px;
     height: 414px;
+    border-radius: 20px;
+    transition: width 4s;
+
+    
 }
-.section-2-button {
+.inner_img:hover{
+    width:400px;
+    
+}
+.section-2-button, .inner-button {
     display: flex;
     background-color: rgb(226, 46,109) ;
     padding-left: 30px;
@@ -60,7 +69,11 @@ main{
     width: 172px;
     border-radius: 41px;
     align-items: center;
+   
+    
 }
+
+
 .section-2-button a{
     text-decoration: none;
     color: white;
@@ -90,18 +103,17 @@ main{
  /********************
     Section-4 area  
  ********************/
-
-
+ 
  .section-4-article-1-container{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     margin-top: 98.4px;
 
  }
 
  .section-4-article-2-container{
      display: grid;
-     
+     box-shadow: 10px 10px 40px grey;
      grid-template-columns: repeat(3, 1fr);
      grid-gap: 34px;
      background-color: rgb(241, 242, 242);
@@ -163,4 +175,47 @@ main{
 }
 .section-4-button i{
     color:rgb(226, 46,109); ;
+}
+
+/* Section-5 area  */
+.section-5-container{
+    display: flex;
+    background-size: 150px 200px;
+    margin-top: 130px;
+    margin-bottom:120px ;
+    
+}
+
+.section-5-container img{
+    margin-right: 80px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    width: 400px;
+    height: 400w;
+}
+.section-5-text-h1{
+    font-weight: 700;
+    font-size: 40px;
+    color: #3A3A3A;
+}
+
+/* footer area  */
+
+footer{
+    background-color: rgb(10, 8, 38);
+    height: 250px;
+}
+.sec-last-footer{
+    color: white;
+    text-align: center;
+} 
+.font-footer{
+    line-height: 10px;
+    
+}
+.sec-last-footer h2{
+    padding-top: 70px;
+}
+.footer-img #space{
+    margin-right: 35px;
 }
