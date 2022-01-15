@@ -141,3 +141,20 @@ main{
     margin-right: 8px;
 
 }
+.section-4-button {
+    display: flex;
+    margin-left: 965px;
+    margin-top: 30px;
+    
+}
+.section-4-button a{
+    text-decoration: none;
+    color: rgb(226, 46,109);
+    font-weight: 100;
+    margin-right: 10px;
+    
+    
+}
+.section-4-button i{
+    color:rgb(226, 46,109); ;
+}
